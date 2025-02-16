@@ -56,7 +56,8 @@ Tabs.Character:AddButton({
     Title = "Reload",
     Description = "RELOAD SCRIPT IF FUNCTIONS DONT WORK",
     Callback = function()
-        loadstring(game:HttpGet(""))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/EclipseScripts-RBX/Universal/refs/heads/main/Universal.lua"))()
+		Fluent:Destroy()
     end
 })
 
